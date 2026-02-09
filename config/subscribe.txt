@@ -1,10 +1,39 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+# fanmingming - IPV6 源，带EPG和台标
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
+# fanmingming index - IPV6 源，带EPG和台标
+https://live.fanmingming.com/tv/m3u/index.m3u
 
+# YueChan - IPV6 源，带台标
+https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 
+# Kimentanm - IPV4/6 双栈，带台标
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+
+# BurningC4 - IPV4 源
+https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
+
+# joevess - IPV4 源，带台标
+https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
+
+# Ftindy - IPV6 源，带EPG和台标
+https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
+
+# YanG-1989 - IPV6 源，带EPG和台��
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+
+# YanG-1989 镜像 - IPV4/6 双栈，带EPG和台标
+https://tv.iill.top/m3u/Gather
+
+# iptv-sources - IPV6 源
+https://m3u.ibert.me/fmml_ipv6.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+
+# 如果你想把某些高质量源设为白名单（不测速直接保留），可以在下方添加，例如：
+# https://live.fanmingming.com/tv/m3u/ipv6.m3u
